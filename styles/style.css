@@ -1,5 +1,5 @@
 
-body {
+* {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
@@ -20,6 +20,9 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -78,9 +81,7 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
-}
+
   
 footer {
     position: fixed;
@@ -91,6 +92,7 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+    font-family: 'Titillium Web', sans-serif;
 }
   
   @keyframes pulse {
@@ -111,3 +113,74 @@ footer {
     }
 
   }
+
+
+  .scifi-style{
+      border: 1px solid black;
+      margin: 5px;
+      padding: 10px;
+  }
+
+  .bq-style{
+      font-size: 1.25rem;
+      font-weight: 900;
+      margin-bottom: 10px;
+  }
+
+  .qc-style{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+
+  .author-style{
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.cite-style{
+    font-size: .85rem;
+    font-style: italic;
+}
+
+.enterprise{
+    background-image: url(../assets/enterprise.jpg);
+    background-size: cover;
+}
+
+.millennium-falcon{
+    background-image: url(../assets/millennium-falcon.jpg);
+    background-size: cover;
+}
+
+.nostromo{
+    background-image: url(../assets/nostromo.jpg);
+    background-size: cover;
+}
+
+.ship-container-style{
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    text-shadow: 1px 1px black,
+    -1px -1px black;
+    border-radius: 5px;
+}
+
+.ship-style{
+    color: yellow;
+    font-weight: 900;
+}
+
+.captain-style{
+    color: yellow;
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.show-style{
+    color:yellow;
+    margin: 0;
+    font-size: .85rem;
+}

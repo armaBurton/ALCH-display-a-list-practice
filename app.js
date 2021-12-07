@@ -1,8 +1,14 @@
 // import functions and grab DOM elements
+import { scifiQuotes } from './strings.js';
+import { quotes } from './renderStringArray.js';
 
-// initialize global state
+const scifi = document.getElementById(`scifi`);
+const placer = quotes(scifiQuotes);
+scifi.append(placer);
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+import { spaceShips } from './renderSimpleObjects.js';
+import { spaceShipsObj } from './simple-objects.js';
+
+const spaceship = document.getElementById(`spaceship`);
+const spaceshipPlacer = spaceShips(spaceShipsObj);
+spaceship.append(spaceshipPlacer);
