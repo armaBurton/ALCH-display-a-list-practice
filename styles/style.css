@@ -82,7 +82,7 @@ header img {
 }
 
 
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -94,10 +94,10 @@ footer {
     box-shadow: var(--shadow);
     font-family: 'Titillium Web', sans-serif;
 }
-  
-  @keyframes pulse {
+
+@keyframes pulse {
     20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+        transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
     }
 
     40% {
@@ -106,36 +106,36 @@ footer {
 
     60% {
         transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
+        }
 
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
+}
 
 
-  .scifi-style{
-      border: 1px solid black;
-      margin: 5px;
-      padding: 10px;
-  }
+.scifi-style{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
 
-  .bq-style{
-      font-size: 1.25rem;
-      font-weight: 900;
-      margin-bottom: 10px;
-  }
-
-  .qc-style{
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-  }
-
-  .author-style{
+.bq-style{
+    font-size: 1.25rem;
     font-weight: 900;
-    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.qc-style{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.author-style{
+font-weight: 900;
+margin-right: 5px;
 }
 
 .cite-style{
@@ -220,5 +220,70 @@ footer {
 
 .book{
     display: flex;
+}
 
+.cocktail-div{
+    width: 1100px;
+    display: flex;    
+    gap: 10px;
+    background-color: hsla(60, 100%, 50%, .125);
+}
+
+.drink-name{
+    border-bottom: 3px solid hsla(0, 100%, 50%, .25); 
+    margin-bottom: 5px;
+}
+
+.cup{
+    width: 33vw;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ing-and-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.drink-img{
+    width: 180px;
+    
+}
+
+.ing-list{
+   display: flex;
+   flex-direction: column;
+   width: 160px;
+}
+
+.ing-line{
+    width: 160px;
+}
+
+
+.dir-line{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.directions{
+    height: 200px;
+    background-color: hsla(120, 100%, 50%, .25);
+    margin-top: 5px;
+}
+
+.rating{
+    border-top: 2px solid white;
+    background-color: hsla(0, 100%, 50%, .25); 
+    padding: 0 5px;
+    font-size: .75rem;
+}
+
+.updated{
+    padding: 0 5px;
+    font-size: .75rem;
 }

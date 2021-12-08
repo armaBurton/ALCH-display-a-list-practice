@@ -1,5 +1,3 @@
-// import { spell } from "./objectobject";
-
 export function spells(grimoire) {
     const book = document.createElement(`div`);
     book.classList.add(`book`);
