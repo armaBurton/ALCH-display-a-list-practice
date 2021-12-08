@@ -7,7 +7,7 @@ export const spaceShipsObj = [
     },
     {
         ship: `The USCSS Nostromo`,
-        captain: `Arthur Coblenz Dallas`,
+        captain: `Arthur Koblenz Dallas`,
         show: `Alien`,
         src: `nostromo`
     },
